@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Nav Items (Desktop) */}
-          <ul className="hidden lg:flex ml-14 space-x-12">
+          <ul className="hidden lg:flex ml-14 text-xl font-bold space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
                 <a href={item.href}>{item.label}</a>
