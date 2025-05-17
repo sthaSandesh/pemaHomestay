@@ -19,17 +19,16 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center flex-shrink-0">
             <Image
-              className="h-10 w-10 mr-2"
+              className=" mr-2"
               src="/logo.png"
               alt="Logo"
-              width={40} // Add width
-              height={40} // Add height
+              width={120} 
+              height={120} 
             />
-            <span className="text-xl tracking-tight">Pema HomeStay</span>
           </div>
 
           {/* Nav Items (Desktop) */}
-          <ul className="hidden lg:flex ml-14 text-xl font-bold space-x-12">
+          <ul className="hidden lg:flex ml-14 text-lg font-bold space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
                 <a href={item.href}>{item.label}</a>
