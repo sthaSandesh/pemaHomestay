@@ -1,5 +1,7 @@
 import CulturalExp from "@/components/home/CulturalExp";
 import Gallery from "@/components/home/gallery";
+import TesNavbar from "@/components/navbar/tesNav";
+import Testimonials from "@/components/testimonials/testimonials";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
@@ -12,7 +14,9 @@ export default function Home() {
   return (
     <main>
       <section
-        className="bg-[url('/homeBg.png')] bg-cover bg-center  min-h-[calc(100vh-90px)]">
+        className="bg-[url('/homeBg.png')] bg-cover bg-center min-h-screen ">
+        {/* min-h-[calc(100vh-90px)] */}
+        <TesNavbar />
 
         <div className="flex flex-col items-center justify-between p-24">
           <h1 className="text-4xl font-bold">Welcome to Our Hotel</h1>
@@ -108,7 +112,7 @@ export default function Home() {
         </div>
       </section>
       {/* Room & Rate */}
-      <section className="padx py-16">
+      <section className="padx py-16 bg-gray-200">
         <div className="text-center">
           <h2 className="font-bold text-3xl text-primary mb-2">Room & Rate</h2>
           <p className="text-muted-foreground font-semibold">
@@ -219,6 +223,22 @@ export default function Home() {
         </div>
         <div className="flex items-center justify-center mt-4">
           <Button>View More</Button>
+        </div>
+      </section>
+      {/* testimonial */}
+      <section className="padx py-16 ">
+        <div className="text-center">
+          <h2 className="font-bold text-3xl text-primary mb-2">Testimonials</h2>
+          <p className="text-muted-foreground font-semibold">
+            What Our Guests Say </p>
+        </div>
+        <div className="flex justify-center my-8">
+          <svg width="155" height="6" viewBox="0 0 155 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="155" height="6" rx="3" fill="#F19204" />
+          </svg>
+        </div>
+        <div>
+          <Testimonials />
         </div>
       </section>
       {/* Book Your Stay */}
