@@ -1,4 +1,5 @@
 import CulturalExp from "@/components/home/CulturalExp";
+import Gallery from "@/components/home/gallery";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
@@ -23,6 +24,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Our Services & Amenities */}
       <section className="bg-primary padx py-16">
         <div className="container  text-white">
           <h2 className="text-3xl font-extrabold text-center mb-4">Our Services & Amenities</h2>
@@ -66,6 +68,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* About Pema Homestay */}
       <section className="padx py-16">
         <div className="text-center">
           <h2 className="font-bold text-3xl text-primary mb-2">About Pema Homestay</h2>
@@ -104,6 +107,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Room & Rate */}
       <section className="padx py-16">
         <div className="text-center">
           <h2 className="font-bold text-3xl text-primary mb-2">Room & Rate</h2>
@@ -163,6 +167,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Cultural Experience */}
       <section className="padx py-16">
         <div className="text-center">
           <h2 className="font-bold text-3xl text-primary mb-2">Cultural Experience</h2>
@@ -182,6 +187,7 @@ export default function Home() {
           <Button> Explor More </Button>
         </div>
       </section>
+      {/* Savor Traditional */}
       <section >
         <div className="bg-[url('/savorTradi.png')] bg-cover bg-center min-h-[calc(100vh-90px)] flex flex-col items-center justify-center">
           <div className="text-center text-white px-4">
@@ -195,8 +201,33 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="padx py-16">
-
+      {/* Gallery */}
+      <section className="padx py-16 bg-gray-200">
+        <div className="text-center">
+          <h2 className="font-bold text-3xl text-primary mb-2">Gallery</h2>
+          <p className="text-muted-foreground font-semibold">
+            Glimpses of our homestay, surroundings, and cultural experiences
+          </p>
+        </div>
+        <div className="flex justify-center my-8">
+          <svg width="155" height="6" viewBox="0 0 155 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="155" height="6" rx="3" fill="#F19204" />
+          </svg>
+        </div>
+        <div>
+          <Gallery />
+        </div>
+        <div className="flex items-center justify-center mt-4">
+          <Button>View More</Button>
+        </div>
+      </section>
+      {/* Book Your Stay */}
+      <section className="bg-primary padx py-16 text-white flex flex-col items-center justify-center">
+        <div className="text-center mb-8">
+          <h3 className="text-2xl lg:text-3xl font-bold mb-2">Book Your Stay</h3>
+          <p className="font-semibold">Contact us to book your peaceful escape in the hills</p>
+        </div>
+        <Button className="bg-white text-primary font-semibold hover:bg-gray-100">Book Now</Button>
       </section>
     </main>
   );

@@ -35,3 +35,62 @@ export const CulturalExperiences = [
     image: '/TamangCulture.png',
   },
 ]
+
+
+export const GalleryImages = [
+  // all GalleryImages[0]
+  [
+    { src: '/all1.png', alt: 'all Image 1' },
+    { src: '/all2.png', alt: 'all Image 2' },
+    { src: '/all3.png', alt: 'all Image 3' },
+    { src: '/all4.png', alt: 'all Image 4' },
+    { src: '/all5.png', alt: 'all Image 5' },
+    { src: '/all6.png', alt: 'all Image 6' },
+    { src: '/all7.png', alt: 'all Image 7' },
+    { src: '/all8.png', alt: 'all Image 8' },
+  ],
+  // rooms GalleryImages[1]
+  [
+    { src: '/all3.png', alt: 'all Image 3' },
+    { src: '/all8.png', alt: 'all Image 8' },
+    { src: '/all1.png', alt: 'all Image 1' },
+    { src: '/all7.png', alt: 'all Image 7' },
+    { src: '/all6.png', alt: 'all Image 6' },
+    { src: '/all4.png', alt: 'all Image 4' },
+    { src: '/all5.png', alt: 'all Image 5' },
+    { src: '/all2.png', alt: 'all Image 2' },
+  ],
+  // cuisine GalleryImages[2]
+  [
+    { src: '/all4.png', alt: 'all Image 4' },
+    { src: '/all3.png', alt: 'all Image 3' },
+    { src: '/all6.png', alt: 'all Image 6' },
+    { src: '/all7.png', alt: 'all Image 7' },
+    { src: '/all1.png', alt: 'all Image 1' },
+    { src: '/all8.png', alt: 'all Image 8' },
+    { src: '/all5.png', alt: 'all Image 5' },
+    { src: '/all2.png', alt: 'all Image 2' },
+  ],
+  // culture GalleryImages[3]
+  [
+    { src: '/all4.png', alt: 'all Image 4' },
+    { src: '/all3.png', alt: 'all Image 3' },
+    { src: '/all7.png', alt: 'all Image 7' },
+    { src: '/all6.png', alt: 'all Image 6' },
+    { src: '/all8.png', alt: 'all Image 8' },
+    { src: '/all2.png', alt: 'all Image 2' },
+    { src: '/all5.png', alt: 'all Image 5' },
+    { src: '/all1.png', alt: 'all Image 1' },
+  ],
+  // nature  GalleryImages[4]
+  [
+    { src: '/all4.png', alt: 'all Image 4' },
+    { src: '/all5.png', alt: 'all Image 5' },
+    { src: '/all2.png', alt: 'all Image 2' },
+    { src: '/all8.png', alt: 'all Image 8' },
+    { src: '/all3.png', alt: 'all Image 3' },
+    { src: '/all7.png', alt: 'all Image 7' },
+    { src: '/all1.png', alt: 'all Image 1' },
+    { src: '/all6.png', alt: 'all Image 6' },
+  ]
+]
