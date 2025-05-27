@@ -25,11 +25,13 @@ export default function TesNavbar() {
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src="/logo.png" alt="Pema Homestay" className="h-12 w-auto" />
+          <Link href='/'>
+          <img src="/logo.png" alt="Pema Homestay" className="h-16 w-auto" />
+          </Link>
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-6 font-semibold">
+        <div className="hidden md:flex items-center space-x-6 text-xl font-semibold">
           {navItems.map(({ label, href }) => (
             <Link
               key={href}

@@ -18,14 +18,14 @@ export default function Home() {
         {/* min-h-[calc(100vh-90px)] */}
         <TesNavbar />
 
-        <div className="flex flex-col items-center justify-between p-24">
-          <h1 className="text-4xl font-bold">Welcome to Our Hotel</h1>
-          <p className="mt-4 text-lg">Experience luxury and comfort like never before.</p>
-          <div className="mt-8">
-            <a href="#features" className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600">
-              Explore Features
-            </a>
-          </div>
+        <div className="absolute left-0 bottom-0 p-8 text-white lg:max-w-[50%]">
+          <h2 className=" text-4xl lg:text-8xl font-bold mb-2">Your Peaceful</h2>
+          <h3 className="text-2xl lg:text-4xl font-semibold mb-4">Escape in the Hills</h3>
+          <p className="text-sm md:text-base">
+            Escape to the serene hills of Madan Kundari, where tradition meets nature.
+            Discover Nepali farm life, savor local flavors, and find peace between the rivers
+            and mountains.
+          </p>
         </div>
       </section>
       {/* Our Services & Amenities */}
