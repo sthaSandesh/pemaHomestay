@@ -9,20 +9,21 @@ export default function About() {
                 className="bg-[url('/homeBg.png')] bg-cover bg-center min-h-screen ">
                 <TesNavbar />
             </section>
+
             <section className='padx py-16'>
                 <div className="flex flex-col lg:flex-row items-center gap-8">
                     {/* Text Content */}
                     <div className="w-full lg:w-1/2 flex flex-col gap-8">
                         <div>
-                            <h3 className="text-2xl font-bold text-primary mb-2">Our Story</h3>
+                            <h3 className="text-2xl lg:text-4xl font-bold text-primary mb-2">About Us</h3>
                             <p className="text-muted-foreground">
                                 Founded in 1995 by Mr. Pema Lama as a small farm, Pema Homestay has grown into a larger facility under the management of his son, Mr. Phurpa Namgel Lama, offering guests a unique rural experience.
                             </p>
                         </div>
                         <div>
-                            <h3 className="text-2xl font-bold text-primary mb-2">Farm Life</h3>
                             <p className="text-muted-foreground">
-                                Guests can join daily activities at Himalayan Farm and Training Center, such as harvesting vegetables, caring for animals, and enjoying fresh, local meals.
+                                Pema Homestay is a peaceful retreat in Madan Kundari, Kavrepalanchowk, 87 km from Kathmandu. Established in 1995 by the late Mr. Pema Lama, it offers a unique experience of Nepali farm life and Tamang culture.
+                                Managed by his son, Mr. Phurpa Namgel Lama, the homestay features comfortable rooms, bathroom facilities, internet, a restaurant, a meeting hall, and a self-kitchen for guests to enjoy. Located between the Sunkoshi and Chaurikhola Rivers, it&apos;s the perfect place to connect with nature.
                             </p>
                         </div>
                     </div>
@@ -143,7 +144,7 @@ export default function About() {
             </section>
             <section className='padx py-16'>
                 <div className="text-center">
-                    <h2 className="font-bold text-3xl text-primary mb-2">Travel Options to Pema Homestay</h2>                   
+                    <h2 className="font-bold text-3xl text-primary mb-2">Travel Options to Pema Homestay</h2>
                 </div>
                 <div className="flex justify-center mt-8">
                     <svg width="155" height="6" viewBox="0 0 155 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -164,13 +165,13 @@ export default function About() {
                     {/* Text Content */}
                     <div className="w-full lg:w-1/2 flex flex-col gap-8">
                         <ul className="list-disc font-semibold text-muted-foreground pb-4 lg:text-lg pl-5 space-y-2">
-                          <li>Private Vehicle (Recommended for comfort and flexibility)</li>
+                            <li>Private Vehicle (Recommended for comfort and flexibility)</li>
                             <li>Local or Tourist Bus to Dolalghat, then hire a jeep or local taxi</li>
                             <li>Motorbike Ride for adventurous travelers</li>
                         </ul>
 
                     </div>
-                    
+
 
                 </div>
             </section>
