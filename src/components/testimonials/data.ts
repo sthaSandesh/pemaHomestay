@@ -9,45 +9,45 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
-    name: "Saraswati R.",
+    name: "Ankit Panta",
     location: "Kathmandu",
-    image: "/avatar1.jpg",
+    image: "/ankit.png",
+    message:
+    "From the moment we arrived, we felt at home. The views, the culture, and the warmth of the people were simply magical.",
+  },
+  {
+    name: "Nima Tamang",
+    location: "Dhulikhel",
+    image: "/nima.png",
     message:
       "A hidden gem in the hills! The warm hospitality, fresh farm meals, and peaceful environment made our stay unforgettable.",
   },
   {
-    name: "Saraswati R.",
+    name: "Suresh Koju",
     location: "Kathmandu",
-    image: "/avatar1.jpg",
+    image: "/suresh.png",
     message:
-      "A hidden gem in the hills! The warm hospitality, fresh farm meals, and peaceful environment made our stay unforgettable.",
+      "Pema Homestay gave us an authentic taste of village life. The hospitality was unmatched, and the scenery—breathtaking",
   },
   {
-    name: "Saraswati R.",
-    location: "Kathmandu",
-    image: "/avatar1.jpg",
+    name: "Sandesh Shrestha",
+    location: "Bhaktapur",
+    image: "/sandesh.png",
     message:
-      "A hidden gem in the hills! The warm hospitality, fresh farm meals, and peaceful environment made our stay unforgettable.",
+      "Waking up to mountain views and the sound of nature was soul-refreshing. Highly recommend for a quiet retreat!",
   },
   {
-    name: "Saraswati R.",
-    location: "Kathmandu",
-    image: "/avatar1.jpg",
+    name: "Phurba Lama",
+    location: "Bhaktapur",
+    image: "/phurpa.png",
     message:
-      "A hidden gem in the hills! The warm hospitality, fresh farm meals, and peaceful environment made our stay unforgettable.",
+      "The perfect blend of comfort and culture. We learned so much about local traditions and enjoyed every meal",
   },
   {
-    name: "Saraswati R.",
-    location: "Kathmandu",
-    image: "/avatar1.jpg",
+    name: "Saraswati Rai.",
+    location: "Nagarkot",
+    image: "/girl.png",
     message:
-      "A hidden gem in the hills! The warm hospitality, fresh farm meals, and peaceful environment made our stay unforgettable.",
-  },
-  {
-    name: "Saraswati R.",
-    location: "Kathmandu",
-    image: "/avatar1.jpg",
-    message:
-      "A hidden gem in the hills! The warm hospitality, fresh farm meals, and peaceful environment made our stay unforgettable.",
+      "Staying at Pema Homestay was a heartwarming experience. The serene surroundings, cozy rooms, and genuine kindness of the hosts made it feel like a second home.",
   },
 ];

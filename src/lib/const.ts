@@ -35,6 +35,28 @@ export const CulturalExperiences = [
     image: '/TamangCulture.png',
   },
 ]
+export const ExpCardData = [
+  {
+    title: 'Tamang Cultural Experience',
+    description: 'Immerse yourself in authentic Tamang culture with traditional dress, music, dance, and rituals.',
+    image: '/Monastery.png',
+  },
+  {
+    title: 'Organic Farm Tour',
+    description: 'Visit our organic farm, learn about sustainable farming practices, and pick fresh produce.                                          ',
+    image: '/yoga.png',
+  },
+  {
+    title: 'Mountain Hiking',
+    description: 'Guided hiking tours to scenic viewpoints offering breathtaking panoramas of the Himalayan range.',
+    image: '/rafting.png',
+  },
+  {
+    title: 'Tamang Cultural Experience',
+    description: 'Immerse yourself in authentic Tamang culture with traditional dress, music, dance, and rituals.',
+    image: '/TamangCulture.png',
+  },
+]
 
 
 export const GalleryImages = [

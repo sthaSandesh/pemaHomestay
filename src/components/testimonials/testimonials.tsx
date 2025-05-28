@@ -47,13 +47,13 @@ export default function Testimonial() {
                                     </defs>
                                 </svg>
 
-                                <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2">
+                                <div className="absolute -bottom-9 left-1/2 transform -translate-x-1/2">
                                     <Image
                                         src={testimonial.image}
                                         alt={testimonial.name}
-                                        width={48}
-                                        height={48}
-                                        className="rounded-full border-2 border-white"
+                                        width={100}
+                                        height={100}
+                                        className="rounded-full border-4 border-white"
                                     />
                                 </div>
                             </div>
