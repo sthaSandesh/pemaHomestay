@@ -128,7 +128,7 @@ const Footer: React.FC = () => {
                             <ul className="text-gray-400 list-none p-0">
                                  <li>Madan Kundari, Bagmati Province, Nepal</li>
                             <li>+9779876543210</li>
-                            <li>info@pemahomestay.com</li>
+                            {/* <li>info@pemahomestay.com</li> */}
                             </ul>
                         </div>
                     </div>
