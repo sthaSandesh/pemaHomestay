@@ -50,13 +50,11 @@ const Footer: React.FC = () => {
 
                     {/* Resources */}
                     <div>
-                        <h3 className="text-lg font-semibold mb-4">Resources</h3>
+                        <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
                         <ul className="text-gray-400 list-none p-0">
-                            <li className="mb-2"><a href="#" className="hover:text-primary">Blog</a></li>
-                            <li className="mb-2"><a href="#" className="hover:text-primary">Support</a></li>
-                            <li className="mb-2"><a href="#" className="hover:text-primary">Documentation</a></li>
-                            <li className="mb-2"><a href="#" className="hover:text-primary">Terms of Service</a></li>
-                            <li className="mb-2"><a href="#" className="hover:text-primary">Privacy Policy</a></li>
+                            <li>Madan Kundari, Bagmati Province, Nepal</li>
+                            <li>+9779876543210</li>
+                            <li>info@pemahomestay.com</li>
                         </ul>
                     </div>
 
@@ -68,10 +66,10 @@ const Footer: React.FC = () => {
                             <input
                                 type="email"
                                 placeholder="Enter your email"
-                                className="w-full p-2 rounded-l-md bg-gray-800 text-gray-300 border-none focus:outline-none"
+                                className="w-full p-2 rounded-l-md bg-white text-gray-300 border-none focus:outline-none"
                             />
-                            <button className="bg-blue-500 p-2 rounded-r-md hover:bg-blue-600">
-                                <Send className='h-5 w-5 text-primary' />
+                            <button className="bg-primary p-2 rounded-r-md ">
+                                <Send className='h-5 w-5 text-white' />
 
                             </button>
                         </div>
@@ -81,13 +79,13 @@ const Footer: React.FC = () => {
                     © {new Date().getFullYear()} Pema HomeStay. All rights reserved.
                 </div>
             </footer>
-            <footer className="bg-gray-900 text-primary py-8 px-5  md:hidden">
+            <footer className="bg-gray-200 text-primary py-8 px-5  md:hidden">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Logo and Description */}
                     <div>
                         <h2 className="text-3xl font-bold ">
                             <Image
-                                src="/logo.svg"
+                                src="/logo.png"
                                 alt="DolmaPOS logo"
                                 width={160}
                                 height={160}
@@ -126,13 +124,11 @@ const Footer: React.FC = () => {
 
                         {/* Resources */}
                         <div>
-                            <h3 className="text-lg font-semibold mb-4">Resources</h3>
+                            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
                             <ul className="text-gray-400 list-none p-0">
-                                <li className="mb-2"><a href="#" className="hover:text-primary">Blog</a></li>
-                                <li className="mb-2"><a href="#" className="hover:text-primary">Support</a></li>
-                                <li className="mb-2"><a href="#" className="hover:text-primary">Documentation</a></li>
-                                <li className="mb-2"><a href="#" className="hover:text-primary">Terms of Service</a></li>
-                                <li className="mb-2"><a href="#" className="hover:text-primary">Privacy Policy</a></li>
+                                 <li>Madan Kundari, Bagmati Province, Nepal</li>
+                            <li>+9779876543210</li>
+                            {/* <li>info@pemahomestay.com</li> */}
                             </ul>
                         </div>
                     </div>
@@ -144,10 +140,10 @@ const Footer: React.FC = () => {
                             <input
                                 type="email"
                                 placeholder="Enter your email"
-                                className="w-full p-2 rounded-l-md bg-gray-800 text-gray-300 border-none focus:outline-none"
+                                className="w-full p-2 rounded-l-md bg-white text-gray-300 border-none focus:outline-none"
                             />
-                            <button className="bg-blue-500 p-2 rounded-r-md hover:bg-blue-600">
-                                <Send className='h-5 w-5 text-primary' />
+                            <button className="bg-primary p-2 rounded-r-md ">
+                                <Send className='h-5 w-5 text-white' />
                             </button>
                         </div>
                     </div>
