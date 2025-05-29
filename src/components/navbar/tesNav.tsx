@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react'; // You can also use Heroicons
-
+import Image from 'next/Image';
 const navItems = [
   { label: 'Home', href: '/' },
   { label: 'About Us', href: '/about' },
@@ -26,7 +26,7 @@ export default function TesNavbar() {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <Link href='/'>
-          <img src="/logo.png" alt="Pema Homestay" className="h-16 w-auto" />
+          <Image src="/logo.png" alt="Pema Homestay" className="h-16 w-auto" />
           </Link>
         </div>
 
