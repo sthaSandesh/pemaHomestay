@@ -24,7 +24,7 @@ export default function Gallery() {
                                 src={GalleryImages[0][idx].src}
                                 alt={`Gallery image ${idx + 1}`}
                                 width={500}
-                                height={600}
+                                height={500}
                                 className="object-fill rounded-lg w-full h-full"
                             />
                         </div>
@@ -42,7 +42,7 @@ export default function Gallery() {
                                 src={GalleryImages[1][idx].src}
                                 alt={`Gallery image ${idx + 1}`}
                                 width={500}
-                                height={600}
+                                height={500}
                                 className="object-fill rounded-lg w-full h-full"
                             />
                         </div>
@@ -60,7 +60,7 @@ export default function Gallery() {
                                 src={GalleryImages[2][idx].src}
                                 alt={`Gallery image ${idx + 1}`}
                                 width={500}
-                                height={600}
+                                height={500}
                                 className="object-fill rounded-lg w-full h-full"
                             />
                         </div>
@@ -78,7 +78,7 @@ export default function Gallery() {
                                 src={GalleryImages[3][idx].src}
                                 alt={`Gallery image ${idx + 1}`}
                                 width={500}
-                                height={600}
+                                height={500}
                                 className="object-fill rounded-lg w-full h-full"
                             />
                         </div>
@@ -96,7 +96,7 @@ export default function Gallery() {
                                 src={GalleryImages[4][idx].src}
                                 alt={`Gallery image ${idx + 1}`}
                                 width={500}
-                                height={600}
+                                height={500}
                                 className="object-fill rounded-lg w-full h-full"
                             />
                         </div>
