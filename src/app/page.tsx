@@ -5,6 +5,7 @@ import Testimonials from "@/components/testimonials/testimonials";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
+import Link from "next/link";
 import { FaParking, FaUtensils, FaWifi } from "react-icons/fa";
 import { FaKitchenSet, FaPeopleGroup } from "react-icons/fa6";
 import { PiMountainsBold } from "react-icons/pi";
@@ -88,7 +89,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row justify-between items-center mt-8 gap-8">
           <div className="w-full lg:w-1/2 flex justify-center">
             <Image
-              src="/aboutBedImg.png"
+              src="/about.jpg"
               alt="About Pema Homestay"
               width={500}
               height={350}
@@ -106,7 +107,9 @@ export default function Home() {
               Managed by his son, Mr. Phurpa Namgel Lama, the homestay features comfortable rooms, bathroom facilities, internet, a restaurant, a meeting hall, and a self-kitchen for guests to enjoy. Located between the Sunkoshi and Chaurikhola Rivers, it&apos;s the perfect place to connect with nature.
             </p>
             <div className="mt-8">
+              <Link href='/about'>
               <Button>Read More</Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -134,25 +137,27 @@ export default function Home() {
               Our rooms are thoughtfully designed with a perfect blend of comfort and culture.Each space reflects authentic Tamang craftsmanship paired with essential modern amenities. From cozy interiors to peaceful views, every detail is curated to offer you warmth, relaxation, and a true sense of home amidst the hills of Nepal.
             </p>
             <div className="flex items-center justify-center">
+              <Link href="/rooms">
               <Button className="px-8">DISCOVER</Button>
+              </Link>
             </div>
             <div className="flex gap-2 py-4">
               <Image
-                src="/smRoomImg.png"
+                src="/smRoom1.jpg"
                 alt="About Pema Homestay"
                 width={100}
                 height={100}
                 className="rounded-lg shadow-lg object-cover w-full max-w-md"
               />
               <Image
-                src="/smRoomImg.png"
+                src="/smRoom2.jpg"
                 alt="About Pema Homestay"
                 width={100}
                 height={100}
                 className="rounded-lg shadow-lg object-cover w-full max-w-md"
               />
               <Image
-                src="/smRoomImg.png"
+                src="/smRoom3.jpg"
                 alt="About Pema Homestay"
                 width={100}
                 height={100}
@@ -162,7 +167,7 @@ export default function Home() {
           </div>
           <div className="w-full lg:w-1/2 flex justify-center">
             <Image
-              src="/roomImg.png"
+              src="/hmRm.jpg"
               alt="About Pema Homestay"
               width={350}
               height={350}
@@ -188,7 +193,9 @@ export default function Home() {
           <CulturalExp />
         </div>
         <div className="flex justify-center mt-8">
+          <Link href="/experiences">
           <Button> Explor More </Button>
+          </Link>
         </div>
       </section>
       {/* Savor Traditional */}
@@ -247,7 +254,9 @@ export default function Home() {
           <h3 className="text-2xl lg:text-3xl font-bold mb-2">Book Your Stay</h3>
           <p className="font-semibold">Contact us to book your peaceful escape in the hills</p>
         </div>
+        <Link href='/contact'>
         <Button className="bg-white text-primary font-semibold hover:bg-gray-100">Book Now</Button>
+        </Link>
       </section>
     </main>
   );
