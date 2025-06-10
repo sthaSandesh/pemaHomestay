@@ -14,7 +14,7 @@ import { PiMountainsBold } from "react-icons/pi";
 export default function Home() {
   return (
     <main>
-      <section className="relative min-h-screen overflow-hidden">
+      <section className="relative min-h-[140vw] sm:min-h-screen overflow-hidden">
         {/* Background Video */}
         <video
           autoPlay
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         {/* Hero Content */}
-        <div className="absolute left-0 bottom-0 p-8 text-white lg:max-w-[50%] z-20">
+        <div className="absolute left-0 bottom-0 p-8 text-white lg:max-w-[50%] z-20 hidden lg:flex flex-col justify-center">
           <h2 className="text-4xl lg:text-8xl font-bold mb-2">Your Peaceful</h2>
           <h3 className="text-2xl lg:text-4xl font-semibold mb-4">Escape in the Hills</h3>
           <p className="text-sm md:text-base">

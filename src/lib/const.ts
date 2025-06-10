@@ -17,12 +17,12 @@ export const CulturalExperiences = [
   {
     title: 'Monastery Visits',
     description: 'Experience peace and spirituality by visiting ancient monasteries nestled in the serene hills, where you can witness Buddhist rituals and sacred art.',
-    image: '/Monastery.png',
+    image: '/Monastery.webp',
   },
   {
     title: 'Yoga & Wellness',
     description: 'Relax, recharge, and find balance with our yoga and wellness retreats set in tranquil natural surroundings, perfect for mind and body rejuvenation.',
-    image: '/yoga.png',
+    image: '/yoga.webp',
   },
   {
     title: 'Sun Koshi Rafting',
@@ -32,29 +32,29 @@ export const CulturalExperiences = [
   {
     title: 'Tamang Culture',
     description: 'Discover the rich traditions, warm hospitality, and unique lifestyle of the Tamang community through cultural tours and local interactions.',
-    image: '/TamangCulture.png',
+    image: '/TamangCulture.webp',
   },
 ]
 export const ExpCardData = [
   {
     title: 'Tamang Cultural Experience',
     description: 'Immerse yourself in authentic Tamang culture with traditional dress, music, dance, and rituals.',
-    image: '/Monastery.png',
+    image: '/Monastery.webp',
   },
   {
     title: 'Organic Farm Tour',
     description: 'Visit our organic farm, learn about sustainable farming practices, and pick fresh produce.                                          ',
-    image: '/yoga.png',
+    image: '/storyFarmLife.webp',
   },
   {
     title: 'Mountain Hiking',
     description: 'Guided hiking tours to scenic viewpoints offering breathtaking panoramas of the Himalayan range.',
-    image: '/rafting.png',
+    image: '/hiking.webp',
   },
   {
     title: 'Tamang Cultural Experience',
     description: 'Immerse yourself in authentic Tamang culture with traditional dress, music, dance, and rituals.',
-    image: '/TamangCulture.png',
+    image: '/TamangCulture.webp',
   },
 ]
 
