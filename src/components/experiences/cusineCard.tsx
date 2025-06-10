@@ -4,7 +4,7 @@ import React from 'react'
 import { Button } from '../ui/button'
 import Link from 'next/link'
 
-export default function ExpCard() {
+export default function CusineCard() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-4">
                 {ExpCardData.map((exp, idx) => (
