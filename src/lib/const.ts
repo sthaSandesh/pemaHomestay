@@ -57,54 +57,35 @@ export const ExpCardData = [
     image: '/TamangCulture.png',
   },
 ]
+
+
 export const CusineCardData = [
   {
     title: 'Dal Bhat',
     description: 'Traditional Nepali meal with lentil soup, rice, and assorted vegetables and pickles.',
-    image: '/Monastery.png',
+    image: '/CusineDal.webp',
     keyIng: ['Rice', 'Lentils', 'Vegetables', 'Spices'],
   },
   {
     title: 'Local Chicken',
-    description: 'Succulent chicken cooked with local spices, served with rice or flatbread.',
-    image: '/yoga.png',
+    description: 'Succulent chicken cooked with local spices, served with rice or flatbread, showcasing the flavors of the region.',                                          
+    image: '/CusineChicken.webp',
     keyIng: ['Chicken', 'Spices', 'Herbs'],
   },
   {
     title: 'local Fish',
-    description: 'Freshly caught fish from local rivers, grilled or fried with traditional spices.',
-    image: '/rafting.png',
+    description: 'Freshly caught fish from local rivers, grilled or fried with traditional spices. specialty of the region.',
+    image: '/CusineFish.webp',
     keyIng: ['Fish', 'Spices', 'Herbs'],
   },
   {
     title: 'Sukuti',
     description: 'Dried and spiced meat, often served as a snack or side dish, showcasing local preservation techniques.',
-    image: '/TamangCulture.png',
+    image: '/CusineSukuti.webp',
     keyIng: ['Meat', 'Spices', 'Herbs'],
   },
 ]
-export const CuisineCardData = [
-  {
-    title: 'Tamang Cultural Experience',
-    description: 'Immerse yourself in authentic Tamang culture with traditional dress, music, dance, and rituals.',
-    image: '/Monastery.png',
-  },
-  {
-    title: 'Organic Farm Tour',
-    description: 'Visit our organic farm, learn about sustainable farming practices, and pick fresh produce.                                          ',
-    image: '/yoga.png',
-  },
-  {
-    title: 'Mountain Hiking',
-    description: 'Guided hiking tours to scenic viewpoints offering breathtaking panoramas of the Himalayan range.',
-    image: '/rafting.png',
-  },
-  {
-    title: 'Tamang Cultural Experience',
-    description: 'Immerse yourself in authentic Tamang culture with traditional dress, music, dance, and rituals.',
-    image: '/TamangCulture.png',
-  },
-]
+
 
 
 export const GalleryImages = [
