@@ -14,13 +14,30 @@ import { PiMountainsBold } from "react-icons/pi";
 export default function Home() {
   return (
     <main>
-      <section
-        className="bg-[url('/homeBg.png')] bg-cover bg-center min-h-screen ">
-        {/* min-h-[calc(100vh-90px)] */}
-        <TesNavbar />
+      <section className="relative min-h-screen overflow-hidden">
+        {/* Background Video */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover z-0"
+        >
+          <source src="/homebg.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
-        <div className="absolute left-0 bottom-0 p-8 text-white lg:max-w-[50%]">
-          <h2 className=" text-4xl lg:text-8xl font-bold mb-2">Your Peaceful</h2>
+        {/* Overlay (optional for readability) */}
+        <div className="absolute inset-0 bg-black/40 z-10" />
+
+        {/* Navbar */}
+        <div className="relative z-20">
+          <TesNavbar />
+        </div>
+
+        {/* Hero Content */}
+        <div className="absolute left-0 bottom-0 p-8 text-white lg:max-w-[50%] z-20">
+          <h2 className="text-4xl lg:text-8xl font-bold mb-2">Your Peaceful</h2>
           <h3 className="text-2xl lg:text-4xl font-semibold mb-4">Escape in the Hills</h3>
           <p className="text-sm md:text-base">
             Escape to the serene hills of Madan Kundari, where tradition meets nature.
@@ -89,7 +106,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row justify-between items-center mt-8 gap-8">
           <div className="w-full lg:w-1/2 flex justify-center">
             <Image
-              src="/about.jpg"
+              src="/about.webp"
               alt="About Pema Homestay"
               width={500}
               height={350}
@@ -108,7 +125,7 @@ export default function Home() {
             </p>
             <div className="mt-8">
               <Link href='/about'>
-              <Button>Read More</Button>
+                <Button>Read More</Button>
               </Link>
             </div>
           </div>
@@ -138,26 +155,26 @@ export default function Home() {
             </p>
             <div className="flex items-center justify-center">
               <Link href="/rooms">
-              <Button className="px-8">DISCOVER</Button>
+                <Button className="px-8">DISCOVER</Button>
               </Link>
             </div>
             <div className="flex gap-2 py-4">
               <Image
-                src="/smRoom1.jpg"
+                src="/smRoom1.webp"
                 alt="About Pema Homestay"
                 width={100}
                 height={100}
                 className="rounded-lg shadow-lg object-cover w-full max-w-md"
               />
               <Image
-                src="/smRoom2.jpg"
+                src="/smRoom2.webp"
                 alt="About Pema Homestay"
                 width={100}
                 height={100}
                 className="rounded-lg shadow-lg object-cover w-full max-w-md"
               />
               <Image
-                src="/smRoom3.jpg"
+                src="/smRoom3.webp"
                 alt="About Pema Homestay"
                 width={100}
                 height={100}
@@ -167,7 +184,7 @@ export default function Home() {
           </div>
           <div className="w-full lg:w-1/2 flex justify-center">
             <Image
-              src="/hmRm.jpg"
+              src="/hmRm.webp"
               alt="About Pema Homestay"
               width={350}
               height={350}
@@ -194,7 +211,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center mt-8">
           <Link href="/experiences">
-          <Button> Explor More </Button>
+            <Button> Explor More </Button>
           </Link>
         </div>
       </section>
@@ -255,7 +272,7 @@ export default function Home() {
           <p className="font-semibold">Contact us to book your peaceful escape in the hills</p>
         </div>
         <Link href='/contact'>
-        <Button className="bg-white text-primary font-semibold hover:bg-gray-100">Book Now</Button>
+          <Button className="bg-white text-primary font-semibold hover:bg-gray-100">Book Now</Button>
         </Link>
       </section>
     </main>

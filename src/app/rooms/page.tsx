@@ -1,9 +1,12 @@
 import TesNavbar from '@/components/navbar/tesNav'
+import DeluxeSlider from '@/components/roomslider/deluxeSlider'
+import FamilySlider from '@/components/roomslider/familySlider'
 import StandardSlider from '@/components/roomslider/standardSlider'
 import { Button } from '@/components/ui/button'
 import { Tabs, TabsContent, TabsList } from '@/components/ui/tabs'
 import { TabsTrigger } from '@radix-ui/react-tabs'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function Room() {
@@ -36,11 +39,11 @@ export default function Room() {
                 {/* Image */}
                 <div className="md:w-1/2">
                   <Image
-                    src="/RoomImg.png" 
+                    src="/SroomFlx.webp" 
                     alt="Standard Room"
                     width={400}
                     height={400}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full rounded-xl object-cover"
                   />
                 </div>
 
@@ -68,9 +71,11 @@ export default function Room() {
                   </div>
 
                   <div className="mt-6">
+                    <Link href='/contact'>
                     <Button>
                       BOOK NOW
                     </Button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -87,11 +92,11 @@ export default function Room() {
                 {/* Image */}
                 <div className="md:w-1/2">
                   <Image
-                    src="/RoomImg.png" 
+                    src="/DroomFlx.webp" 
                     alt="Standard Room"
                     width={400}
                     height={400}
-                    className="w-full h-full object-cover"
+                    className="w-full rounded-xl h-full object-cover"
                   />
                 </div>
 
@@ -119,16 +124,18 @@ export default function Room() {
                   </div>
 
                   <div className="mt-6">
+                    <Link href='/contact'>
                     <Button>
                       BOOK NOW
                     </Button>
+                    </Link>
                   </div>
                 </div>
               </div>
               </section>
               <section className='py-16'>
                 {/* room show slider */}
-                <StandardSlider />
+                <DeluxeSlider />
               </section>
             </TabsContent>
             {/* Family Room content  */}
@@ -138,11 +145,11 @@ export default function Room() {
                 {/* Image */}
                 <div className="md:w-1/2">
                   <Image
-                    src="/RoomImg.png" 
-                    alt="Standard Room"
+                    src="/FroomFlx.webp" 
+                    alt="Family Room"
                     width={400}
                     height={400}
-                    className="w-full h-full object-cover"
+                    className="w-full rounded-xl h-full object-cover"
                   />
                 </div>
 
@@ -170,16 +177,18 @@ export default function Room() {
                   </div>
 
                   <div className="mt-6">
+                    <Link href='/contact'>
                     <Button>
                       BOOK NOW
                     </Button>
+                    </Link>
                   </div>
                 </div>
               </div>
               </section>
               <section className='py-16'>
                 {/* room show slider */}
-                <StandardSlider />
+                <FamilySlider />
               </section>
             </TabsContent>
           </Tabs>

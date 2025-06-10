@@ -30,7 +30,7 @@ export default function About() {
                     {/* Image */}
                     <div className="w-full lg:w-1/2 flex justify-center">
                         <Image
-                            src="/aboutBedImg.png"
+                            src="/aboutus.webp"
                             alt="About Pema Homestay"
                             width={400}
                             height={400}
@@ -44,7 +44,7 @@ export default function About() {
                 <div className="relative rounded-xl overflow-hidden h-[600px]">
                     {/* Background Image */}
                     <Image
-                        src="/storyFarmLife.png"
+                        src="/storyFarmLife.webp"
                         alt="Our Story & Farm Life"
                         width={1920}
                         height={1200}
@@ -69,8 +69,8 @@ export default function About() {
                     {/* Image */}
                     <div className="w-full lg:w-1/2 flex justify-center">
                         <Image
-                            src="/aboutBedImg.png"
-                            alt="About Pema Homestay"
+                            src="/Storyfarm.webp"
+                            alt="story and farm "
                             width={400}
                             height={400}
                             className="rounded-lg shadow-lg object-cover w-full max-w-md"
@@ -155,7 +155,7 @@ export default function About() {
                     {/* Image */}
                     <div className="w-full lg:w-1/2 flex justify-center">
                         <Image
-                            src="/travelOpt.jpg"
+                            src="/travelOpt.webp"
                             alt="About Pema Homestay"
                             width={600}
                             height={400}

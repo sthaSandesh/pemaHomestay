@@ -10,65 +10,19 @@ import 'swiper/css/thumbs'
 import Image from 'next/image'
 
 const images = [
-  '/Sroom6.webp',
-  '/Sroom2.webp',
-  '/Sroom3.webp',
-  '/Sroom5.webp',
-  '/Sroom4.webp',
-  '/Sroom1.webp',
+  '/Droom2.webp',
+  '/Droom6.webp',
+  '/Droom3.webp',
+  '/Droom4.webp',
+  '/Droom1.webp',
+  '/Droom5.webp',
 ]
 
-export default function StandardSlider() {
+export default function DeluxeSlider() {
   const [thumbsSwiper, setThumbsSwiper] = useState<any>(null)
   const [activeIndex, setActiveIndex] = useState(0)
 
   return (
-    // <div className="w-full ">
-    //   {/* Main Gallery */}
-    //   <Swiper
-    //     spaceBetween={10}
-    //     navigation
-    //     loop={true}
-    //     thumbs={{ swiper: thumbsSwiper }}
-    //     modules={[Navigation, Thumbs]}
-    //     className="rounded-xl overflow-hidden "
-    //   >
-    //     {images.map((src, index) => (
-    //       <SwiperSlide key={index}>
-    //         <Image
-    //           src={src}
-    //           alt={`Room ${index + 1}`}
-    //           width={1200}
-    //           height={800}
-    //           className="w-full h-[400px] object-cover"
-    //         />
-    //       </SwiperSlide>
-    //     ))}
-    //   </Swiper>
-
-    //   {/* Thumbnail Gallery */}
-    //   <Swiper
-    //     onSwiper={setThumbsSwiper}
-    //     spaceBetween={10}
-    //     slidesPerView={5}
-    //     loop={true}
-    //     watchSlidesProgress
-    //     modules={[Thumbs]}
-    //     className="mt-4"
-    //   >
-    //     {images.map((src, index) => (
-    //       <SwiperSlide key={index}>
-    //         <Image
-    //           src={src}
-    //           alt={`Thumbnail ${index + 1}`}
-    //           width={200}
-    //           height={200}
-    //           className="w-full lg:h-24 object-cover rounded-md border "
-    //         />
-    //       </SwiperSlide>
-    //     ))}
-    //   </Swiper>
-    // </div>
 <div className="w-full ">
       {/* Main Image Swiper */}
       <Swiper
