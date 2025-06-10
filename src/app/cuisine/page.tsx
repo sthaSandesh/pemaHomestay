@@ -1,4 +1,4 @@
-import ExpCard from '@/components/experiences/expCard'
+import CusineCard from '@/components/experiences/cusineCard'
 import TesNavbar from '@/components/navbar/tesNav'
 import React from 'react'
 
@@ -22,7 +22,7 @@ export default function Cuisine() {
           </svg>
         </div>
         <div>
-          <ExpCard />
+          <CusineCard />
         </div>
       </section>
     </main>
