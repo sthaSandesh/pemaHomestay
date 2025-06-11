@@ -47,7 +47,7 @@ export default function TesNavbar() {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Link href="/book">
+          <Link href="/contact">
             <button className="bg-primary text-white px-4 py-2 rounded hover:bg-red-700">
               Book Your Stay
             </button>

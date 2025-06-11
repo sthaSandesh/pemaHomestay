@@ -224,7 +224,9 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center justify-center mt-8 px-4 lg:max-w-[50%]">
             <p className="text-lg mb-6 font-semibold text-center text-white">Taste the richness of home-cooked meals prepared with fresh farm ingredients, and join our cooking classes for an authentic culinary adventure.</p>
+            <Link href="/cuisine">
             <Button className="px-8">Explore Menu</Button>
+            </Link>
 
           </div>
         </div>

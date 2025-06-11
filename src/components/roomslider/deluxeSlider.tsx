@@ -6,6 +6,7 @@ import { Navigation, Thumbs } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/thumbs'
+import type { Swiper as SwiperType } from 'swiper'
 
 import Image from 'next/image'
 
@@ -19,7 +20,7 @@ const images = [
 ]
 
 export default function DeluxeSlider() {
-  const [thumbsSwiper, setThumbsSwiper] = useState<any>(null)
+  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null)
   const [activeIndex, setActiveIndex] = useState(0)
 
   return (
