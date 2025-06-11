@@ -6,8 +6,20 @@ export default function About() {
     return (
         <main>
             <section
-                className="bg-[url('/homeBg.png')] bg-cover bg-center min-h-screen ">
-                <TesNavbar />
+                className="bg-[url('/aboutusBg.webp')] bg-cover bg-center min-h-[140vw] sm:min-h-screen relative">
+                <div className="absolute inset-0 bg-black/40 z-10" />
+                <div className="relative z-10">
+                    <TesNavbar />
+                </div>
+                {/* Hero Content */}
+                <div className="absolute left-4 bottom-4 p-8 text-white lg:max-w-[50%] z-20 hidden lg:flex flex-col justify-center">
+                    <h2 className="text-4xl font-bold mb-2">About</h2>
+                    <h2 className="text-5xl font-bold mb-2">Pema HomeStay</h2>
+                    <h3 className="text-xl font-semibold mb-4">A place where tradition meets comfort in the heart of rural Nepal</h3>
+                    <p className="text-sm md:text-base">
+
+                    </p>
+                </div>
             </section>
 
             <section className='padx py-16'>
@@ -20,6 +32,15 @@ export default function About() {
                                 Founded in 1995 by Mr. Pema Lama as a small farm, Pema Homestay has grown into a larger facility under the management of his son, Mr. Phurpa Namgel Lama, offering guests a unique rural experience.
                             </p>
                         </div>
+                        <div className="w-full lg:w-1/2 flex justify-center lg:hidden">
+                            <Image
+                                src="/aboutus.webp"
+                                alt="About Pema Homestay"
+                                width={400}
+                                height={400}
+                                className="rounded-lg shadow-lg object-cover w-full max-w-md"
+                            />
+                        </div>
                         <div>
                             <p className="text-muted-foreground">
                                 Pema Homestay is a peaceful retreat in Madan Kundari, Kavrepalanchowk, 87 km from Kathmandu. Established in 1995 by the late Mr. Pema Lama, it offers a unique experience of Nepali farm life and Tamang culture.
@@ -28,7 +49,7 @@ export default function About() {
                         </div>
                     </div>
                     {/* Image */}
-                    <div className="w-full lg:w-1/2 flex justify-center">
+                    <div className="w-full lg:w-1/2  justify-center hidden lg:flex">
                         <Image
                             src="/aboutus.webp"
                             alt="About Pema Homestay"
@@ -67,7 +88,7 @@ export default function About() {
             <section className='padx py-16'>
                 <div className="flex flex-col lg:flex-row items-center gap-8">
                     {/* Image */}
-                    <div className="w-full lg:w-1/2 flex justify-center">
+                    <div className="w-full lg:w-1/2 justify-center hidden lg:flex">
                         <Image
                             src="/Storyfarm.webp"
                             alt="story and farm "
@@ -83,6 +104,15 @@ export default function About() {
                             <p className="text-muted-foreground">
                                 Founded in 1995 by Mr. Pema Lama as a small farm, Pema Homestay has grown into a larger facility under the management of his son, Mr. Phurpa Namgel Lama, offering guests a unique rural experience.
                             </p>
+                        </div>
+                        <div className="w-full lg:w-1/2 justify-center lg:hidden">
+                            <Image
+                                src="/Storyfarm.webp"
+                                alt="story and farm "
+                                width={400}
+                                height={400}
+                                className="rounded-lg shadow-lg object-cover w-full max-w-md"
+                            />
                         </div>
                         <div>
                             <h3 className="text-2xl font-bold text-primary mb-2">Farm Life</h3>
