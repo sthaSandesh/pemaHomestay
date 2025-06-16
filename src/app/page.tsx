@@ -160,21 +160,21 @@ export default function Home() {
             </div>
             <div className="flex gap-2 py-4">
               <Image
-                src="/smRoom1.webp"
+                src="/hSmroom.webp"
                 alt="About Pema Homestay"
                 width={100}
                 height={100}
                 className="rounded-lg shadow-lg object-cover w-full max-w-md"
               />
               <Image
-                src="/smRoom2.webp"
+                src="/hSmroom2.webp"
                 alt="About Pema Homestay"
                 width={100}
                 height={100}
                 className="rounded-lg shadow-lg object-cover w-full max-w-md"
               />
               <Image
-                src="/smRoom3.webp"
+                src="/hSmroom3.webp"
                 alt="About Pema Homestay"
                 width={100}
                 height={100}
