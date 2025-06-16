@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Send } from 'lucide-react';
 const Footer: React.FC = () => {
     return (
-        <>
+        <React.Fragment>
             <footer className="bg-gray-200 text-primary py-8 px-5 hidden md:block">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Logo and Description */}
@@ -152,7 +152,7 @@ const Footer: React.FC = () => {
                     © {new Date().getFullYear()} Pema HomeStay. All rights reserved.
                 </div>
             </footer>
-        </>
+        </React.Fragment>
     );
 };
 
