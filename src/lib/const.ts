@@ -49,7 +49,7 @@ export const ExpCardData = [
   {
     title: 'Mountain Hiking',
     description: 'Guided hiking tours to scenic viewpoints offering breathtaking panoramas of the Himalayan range.',
-    image: '/hiking.webp',
+    image: '/Hiking.webp',
   },
   {
     title: 'Tamang Cultural Experience',
@@ -69,7 +69,7 @@ export const CusineCardData = [
   {
     title: 'Local Chicken',
     description: 'Succulent chicken cooked with local spices, served with rice or flatbread, showcasing the flavors of the region.',                                          
-    image: '/CusineChicken.webp',
+    image: '/cusineChicken.webp',
     keyIng: ['Chicken', 'Spices', 'Herbs'],
   },
   {
