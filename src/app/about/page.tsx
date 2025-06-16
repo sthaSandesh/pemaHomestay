@@ -6,7 +6,7 @@ export default function About() {
     return (
         <main>
             <section
-                className="bg-[url('/aboutusBg.webp')] bg-cover bg-center min-h-[140vw] sm:min-h-screen relative">
+                className="bg-[url('/aboutusBG.webp')] bg-cover bg-center min-h-[140vw] sm:min-h-screen relative">
                 <div className="absolute inset-0 bg-black/40 z-10" />
                 <div className="relative z-10">
                     <TesNavbar />

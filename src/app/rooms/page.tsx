@@ -13,7 +13,7 @@ export default function Room() {
   return (
     <main>
       <section
-                      className="bg-[url('/roomBg.webp')] bg-cover bg-center min-h-[140vw] sm:min-h-screen relative">
+                      className="bg-[url('/roomBG.webp')] bg-cover bg-center min-h-[140vw] sm:min-h-screen relative">
                       <div className="absolute inset-0 bg-black/40 z-10" />
                       <div className="relative z-10">
                           <TesNavbar />
