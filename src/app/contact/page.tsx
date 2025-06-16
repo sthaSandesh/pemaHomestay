@@ -175,8 +175,8 @@ export default function Contact() {
               <div>
                 <h3 className="font-semibold text-lg">Contact Information</h3>
                 <p className="text-yellow-300">Madan Kundari, Bagmati Province, Nepal</p>
-                <p>+977 9876543210</p>
-                <p>info@pemahomestay.com</p>
+                <a href="tel:+977 9876543210" className="hover:underline">+977 9876543210</a><br />
+                <a href="mailto:info@pemahomestay.com" >info@pemahomestay.com</a>
               </div>
               <div>
                 <h4 className="font-semibold">Follow Us</h4>
